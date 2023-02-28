@@ -1,0 +1,899 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+    /* upparnavbar here start */
+    
+#upparnav{
+    width: 100%;
+    background: #eee;
+}    
+
+.upparnav{
+    width: 85%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #eee;
+}
+ 
+.rightside{
+    background: #fff;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.upparnav img{
+    margin: 0 10px;
+}
+
+.upparnav a{
+    color: black;
+    text-decoration: none;
+}
+
+    /* upparnavbar here end */
+
+
+    /* lowernavbar here start */
+    
+#lowernav{
+    width: 100%;
+    background: #fff;
+    border-bottom: #eee 5px solid;
+}
+
+.lowernav{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.lowernav img{
+    width: 200px;
+}
+
+#secondnav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#secondnav a{
+    margin: auto 0;
+    text-decoration: none;
+}
+
+#secondnav button {
+    padding: 10px 25px;
+    background: #1890ff;
+    color: #fff;
+    border-radius: 5px ;
+    border: none;
+}
+
+    /* lowernavbar here end */
+    
+    /* section1 here start */
+    
+#floatmainbox{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    clear: both;
+}    
+
+.floatleft{
+    width: 50%;
+    float: left;
+    padding-top: 7rem;
+    padding-left: 7%;
+}
+
+.floatleft h1{
+    font-size: 49px;
+    margin-bottom: 30px;
+    margin-right: 20%;
+}
+
+.colorgreen{
+    color: #8dc63f;
+}
+
+.floatleft h3{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.floatleft p{
+    font-size: 20px;
+    margin-right: 3%;
+    margin-bottom: 100px;
+}
+
+.floatleft button{
+    padding: 15px 40px;
+    border-radius: 5px ;
+    background: #fff;
+}
+
+.floatright{
+    width: 50%;
+    float: right;
+}
+
+.floatright img{
+    width: 500px;
+    margin: 2% 7%;
+}
+
+    /* section1 here end */
+
+
+    /* section2 here start */
+
+#donationbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.donatesection{
+    width: 85%;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#firstchild{
+    width: 30%;
+    font-size: 25px;
+    padding: 30px;
+}
+
+#firstchildh2{
+    margin-bottom: 20px;
+}
+
+#bold{
+    font-size: 20px;
+    padding-top: 100px;
+    color: #1890ff;
+}
+
+.lastchild{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.lastchild li{
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .lastchild li :hover{
+    background-color: #fff;
+    color: #333;
+    width: 10px;
+} */
+
+.lastchild button{  
+    padding: 20px 30px;
+    border-radius: 10px;
+    background:  #8dc63f;
+    color: #fff;
+    border: none;
+}
+
+    /* section2 here end */
+        
+    /* section3 here start */
+
+.section3{
+    width: 100%;
+}
+
+.section3 img{
+
+    width: 85%;
+    height: 550px;
+    margin-left: 7.5%;
+    display: block;
+}
+
+.section3 b{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 150px;
+}
+
+    /* section3 here end */
+    
+    /* section4 here start */
+    
+.section4{
+    width: 100%;
+    margin-bottom: 40px;
+}   
+
+.serviceiconbox{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.welfareicon{
+    position: relative;
+    padding: 30px 50px;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+}
+.welfaretext{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.medicalicon{
+    position: relative;
+    padding: 30px 50px;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+}
+
+.medicaltext{
+    font-size: large;
+    font-weight: bold;
+    position: absolute; 
+}
+
+.OnlineSadqahicon{
+    position: relative;
+    padding: 30px 60px 30px 60px;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+}
+
+.OnlineSadqahtext{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.RoPlanticon{
+    padding: 30px 60px;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+}
+
+.RoPlanttext{   
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.Educationicon{
+    padding: 30px 50px;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+}
+
+.Educationtext{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.Foodicon{
+    padding: 30px 40px;
+    background: rgba(182,239,73,.2);
+    border-radius: 10px;
+}
+
+.Foodtext{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+    /* section4 here end */
+    
+    /* section5 here start */
+    
+.section5{
+    width: 100%;
+}    
+
+#section5mainbox{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.fooddonateicon{
+    border-radius: 10px;
+}
+
+.fooddonatetext{
+    width: 390px;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 12.5rem;
+    margin-left:15px;
+}
+
+.fooddonatebutton{
+    width: 380px;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #fff;
+    background: #8dc63f;
+    border-radius: 10px;
+    border: #8dc63f;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 10px;
+}
+
+.iticon{
+    border-radius: 10px;
+}
+
+.ittext{
+    width: 390px;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 13.5rem;
+    margin-left: 30.2%;
+}
+
+.itbutton{
+    width:380px;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #fff;
+    background: #8dc63f;
+    border-radius: 10px;
+    border: #8dc63f;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 30%;
+}
+
+.wintericon{
+    border-radius: 10px;
+}
+
+.wintertext{
+    width: 390px;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 13.5rem;
+    margin-left: 59.5%;
+}
+
+.winterbutton{
+    width: 380px;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #fff;
+    background: #8dc63f;
+    border-radius: 10px;
+    border: #8dc63f;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 59.3%;
+}
+
+/* section5 here end */
+
+/* section6 here start */
+
+/* floatleft start */
+
+.section6{
+    width: 100%;
+    position: relative;
+}
+
+#section6box{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 70px;
+    clear: both;
+}
+
+.s6floatleft{
+    float: left;
+}
+
+.s6floatleft img{
+    border-top-left-radius: 50px;
+}
+
+.s6floatleft div{
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    border-top-left-radius: 50px;
+    background: #8dc63f;
+    color: #fff;
+    padding: 50px 30px 50px 50px;
+    position: absolute;
+    top: 0;
+}
+/* floatleft end */
+
+/* floatright start */
+.s6floatright{
+    display: flex;
+    flex-direction: column;
+}
+
+.s6floatright h1{
+    font-size: 30px;
+    margin-left: 1.5rem;
+    margin-top: 5px;
+    
+}
+
+.s6floatright img{
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 1.5rem;
+    margin-top: 21px;
+}
+
+#Hepatitis{
+    margin-bottom: 30px;
+}
+
+.Hepatitis{
+    width: 35%;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 5.5rem;
+}
+
+.Hepatitis p{
+    margin-top: 10px;
+}
+
+#HousingSociety{
+    margin-bottom: 40px;
+}
+
+.HousingSociety{
+    width: 35%;
+    position: absolute;
+    margin-top: 9.7rem;
+    margin-left: 5.5rem;
+}
+
+.HousingSociety p{
+    margin-top: 10px;
+}
+
+#ITLiteracy{
+    margin-bottom: 40px;
+}
+
+.ITLiteracy{
+    width: 35%;
+    position: absolute;
+    margin-top: 16.6rem;
+    margin-left: 5.5rem;
+}
+
+.ITLiteracy p{
+    margin-top: 10px;
+}
+
+#Tharparkar{
+    margin-bottom: 20px;
+}
+
+.Tharparkar{
+    width: 35%;
+    position: absolute;
+    margin-top: 24rem;
+    margin-left: 5.5rem;
+}
+
+.Tharparkar p{
+    margin-top: 10px;
+}
+
+/* floatstart end */
+
+/* section6 here end */
+
+/* section7 here start */
+
+#section7{
+    width: 100%;
+}
+
+.section7mainbox{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#s7img{
+    width: 100%;
+    height: 400px;
+    background: #0d6db7;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section7mainbox div{
+    position: absolute;
+}
+
+.s7food{
+    margin-left: 12%;
+}
+
+.s7food img{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7food h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 8px;
+}
+
+.s7food p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.s7food span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 42px;
+}
+
+.s7familyadoption{
+    margin-left: 30%;
+}
+
+.s7familyadoption img{
+    width: 130px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7familyadoption h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.s7familyadoption p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.s7familyadoption span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.s7education{
+    margin-left: 50%;
+}
+
+.s7education img{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7education h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.s7education p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.s7education span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.s7medical{
+    margin-left: 68%;
+}
+
+.s7medical img{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7medical h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 8px;
+}
+
+.s7medical p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.s7medical span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+/* section7 here end */
+
+/* section8 here start */
+
+.section8{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section8 p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.section8 h1{
+    font-size: 40px;
+    line-height: 4rem;
+}
+
+.section8box{
+    width: 100%;
+    background-color: #eee;
+    justify-content: center;
+    margin:0 auto;
+    padding: 50px;
+    margin-top: 3rem;
+}
+
+.section8box img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.section8box b{
+    display: block;
+    margin-top: 1rem;
+    font-size: 25px;
+}
+
+.section8box p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.s8btn button{
+    font-size: 40px;
+    border-radius: 10px;
+    border-color: #fff;
+    padding: 0px 20px 5px 20px;
+    margin-top: 1rem;   
+}
+
+#leftbtn{
+    background-color: #fff;
+}
+
+#rightbtn{
+    background-color: #8dc63f;
+    color: #fff;
+}
+
+/* section8 here end */
+
+/* section9 here start */
+
+.section9{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.section9 p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section9 iframe{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* section9 here end */
+
+/* section10 here start */
+
+.section10{
+    width: 100%;
+}
+
+
+.news{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.section10mainbox{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+}
+
+.section10mainbox div{
+    height: 310px;
+    margin-left: 12px;
+    border-radius: 10px; 
+    background-color: #eee;
+}
+
+.section10mainbox div img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section10mainbox div p{
+    width: 100px;
+    font-size: 10px;
+    margin: 10px 0px 10px 10px;
+    padding: 5px ; 
+    background-color: #8dc63f;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section10mainbox div h3{
+    width: 230px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.section10mainbox div button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+}
+
+#emailbg{
+    width: 100%;
+}
+
+#email{
+    width: 85%;
+    height: 150px;
+    background: url(section10/5.png);
+    background-color: #0d6db7;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#email h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+
+#email input{
+    background-color: #0d6db7;
+    color: #fff;
+    padding: 15px 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+#email input::placeholder{
+    color: white;
+}
+
+#email button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+
+/* section10 here end */
